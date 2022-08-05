@@ -16,9 +16,6 @@ const Paths = () => {
                     <Route path='/show/:showID' element={<Show />} />
 
                 </Route>
-                <Route path='/people' element={<Outlet />}>
-                    <Route index element={<People />} />
-                </Route>
                 <Route path='/404' element={<Cuatro04 />} />
                 <Route path='*' element={<Navigate to='/404' />} />
             </Routes>

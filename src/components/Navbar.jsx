@@ -14,11 +14,6 @@ export function Navbar () {
                 Home
               </NavLink>
             </li>
-            <li className='nav-item'>
-              <NavLink className='nav-link' to='/people'>
-                People
-              </NavLink>
-            </li>
           </ul>
         </div>
       </div>

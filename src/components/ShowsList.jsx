@@ -19,7 +19,7 @@ const ShowsList = ({ data }) => {
     console.log(`Loading items from ${itemOffset} to ${endOffset}`);
     setCurrentItems(data.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(data.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage, currentItems]);
+  }, [itemOffset, itemsPerPage, data]);
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {

@@ -14,6 +14,7 @@ const Form = ({ search }) => {
   return (
     <section className='mb-5'>
         <div className='row'>
+        
             <div className='col-12 col-lg-4 offset-lg-8 col-md-6 offset-md-6'>
             <form onSubmit={submit}>
         <div className='input-group'>

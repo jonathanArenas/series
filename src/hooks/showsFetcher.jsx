@@ -10,7 +10,6 @@ const showsFetcher = (query) => {
 
     const { data } = (query != null)? serialize(await tmdbApi.searchShows(query)): await tmdbApi.getShows() 
     if (data !== null) {
-      
       setDataState(data)
     } else {
       setDataState([])
