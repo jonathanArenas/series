@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import Episodes from './episodes'
+import Episodes from './Episodes'
 import ShowPeople from './ShowPeople'
 import tmdbApi from '../utils/tmdbApi'
 import '../styles/show.css'
