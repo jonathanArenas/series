@@ -36,7 +36,7 @@ const Episodes = ({ id }) => {
                                     <div className="accordion-body">
                                         <div className='row'>
                                             <div className="col-sm-4 col-md-4 col-lg-4">
-                                                    <img className='img-fluid' src={item.image.medium} alt="" />
+                                                    <img className='img-fluid' src={(item.image === null) ? '': item.image.medium} alt="" />
                                             </div>
                                             <div className='col-sm-8 col-md-8 col-lg-8'>
                                                 <div className='text-dark'>

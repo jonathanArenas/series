@@ -12,7 +12,6 @@ const Show = () => {
         const { data } = await tmdbApi.getShow(showID)
         if (data !== null) {
             setDataShow(data)
-            console.log(data)
 
         } else {
             dataShow === null && navigate('/404')
