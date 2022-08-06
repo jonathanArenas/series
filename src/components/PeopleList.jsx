@@ -8,7 +8,7 @@ const PeopleList = ({ data }) => {
         <ul className='row gx-0 gx-md-5 gy-4'>
           {data.map(item => (
             <li className='col-12 col-md-6 col-lg-2' key={item.id}>
-                <CardPeople {...item} />
+              <CardPeople {...item} />
             </li>
           )
           )}
